@@ -1,0 +1,87 @@
+.basket{
+    margin-left: 20px;
+    font-size: 30px;
+    right: 30px;
+    top:30px;
+    position: absolute;
+    cursor: pointer;
+  }
+  .bashert{
+    margin-left: 20px;
+    font-size: 30px;
+    right: 70px;
+    top:30px;
+    position: absolute;
+    cursor: pointer;
+  }
+  .badge{
+    position: absolute;
+  right: 30px;
+  top: 20px;
+  background-color: #cf3801;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  aspect-ratio: 1/1;
+  display: grid;
+  color: #e3e3e3;
+  font-weight: bold;
+  place-content: center;
+  }
+  .badg{
+    position: absolute;
+  right: 70px;
+  top: 20px;
+  background-color: #cf3801;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  aspect-ratio: 1/1;
+  display: grid;
+  color: #e3e3e3;
+  font-weight: bold;
+  place-content: center;
+  }
+  .cartList{
+    background-color: #fff;
+    color:#111 ;
+    list-style-type: none;
+   font-weight: bold;
+    padding: 0;
+    width: max-content;
+    position: absolute;
+    right:30px;
+    top:100px;
+    z-index: 2;
+  }
+  .total{
+    
+    margin: 10px;
+  }
+  .cartItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 10px;
+    border-bottom: 1px solid #a4a4a4;
+  }
+  .cartItem:hover{
+    background-color:  rgb(211, 211, 212);
+  }
+  .cartItemImage{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+  }
+  .cartItemPrice{
+    background-color: rgb(59, 125, 248) ;
+    color: #000;
+    font-weight: bolder;
+    padding: 3px 7px;
+    border-radius: 5px;
+  }
+  .trash{
+    font-size: 15px;
+    cursor: pointer;
+  }

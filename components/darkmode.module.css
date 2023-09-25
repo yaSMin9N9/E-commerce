@@ -1,0 +1,21 @@
+.container{
+    width: 45px;
+    height: 24px;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.icon{
+    font-size: 15px;
+}
+.swicher{
+    width: 16px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+}

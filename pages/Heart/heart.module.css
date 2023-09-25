@@ -1,0 +1,15 @@
+.heart{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    border-bottom: 1px solid #a4a4a4;
+    margin-left: 400px;
+}
+.title{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}

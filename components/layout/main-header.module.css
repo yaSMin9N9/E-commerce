@@ -1,0 +1,29 @@
+.ui{
+  margin: 0;
+  list-style: none;
+  background-color: #000;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  text-decoration: none;
+  color:#fff;
+  transition: opacity 0.5s ease;
+}
+.li{
+  margin-left: 20px;
+  margin-top: 30px;
+ 
+}
+
+.link{
+  text-decoration: none;
+  color:#fff;
+
+}
+.logo{
+  margin-top: 20px;
+  font-size: 30px;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+}
